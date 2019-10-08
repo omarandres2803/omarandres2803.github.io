@@ -2823,7 +2823,7 @@ input, select, textarea {
 				display: inline-block;
 				text-align: center;
 				border-radius: 100%;
-				font-size: 1.25rem;
+				font-size: 1.6rem;
 			}
 
 		ul.icons.alt li .icon:before {
@@ -3693,7 +3693,7 @@ input, select, textarea {
 			flex-shrink: 1;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 900;
-			letter-spacing: 0.075em;
+			letter-spacing: 0.25em;
 			list-style: none;
 			margin-bottom: 0;
 			padding-left: 0;
@@ -3711,13 +3711,29 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.8rem;
+					font-size: 1.2rem;
 					outline: none;
 					padding: 0 2rem;
 				}
 
+				#nav ul.links li.azul a {
+					-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+					-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+					display: block;
+					font-size: 1.2rem;
+					outline: none;
+					padding: 0 6rem;
+				}
+
 					#nav ul.links li a:hover {
 						color: inherit !important;
+						background-color: rgba(255, 255, 255, 0.1);
+					}
+
+					#nav ul.links li.azul a:hover {
+						color: #18bfef !important;
 						background-color: rgba(255, 255, 255, 0.1);
 					}
 
@@ -4394,7 +4410,7 @@ input, select, textarea {
 		line-height: 1.5;
 		text-align: center;
 		text-transform: uppercase;
-		margin: 4rem auto 8rem auto;
+		margin: 4rem auto 4rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
