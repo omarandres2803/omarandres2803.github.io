@@ -4759,3 +4759,12 @@ input, select, textarea {
 			grid-row: 1;
 		}
 	}
+
+	.crypto_prices_pic {
+		height: 400px;
+		width: 100%;
+		background: url("../../images/crypto_prices_filter.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
